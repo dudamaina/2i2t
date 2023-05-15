@@ -1,2 +1,2 @@
-# Aula do segundo trimestre
+# Aulas do segundo trimestre
 Maria Eduarda A. Maina - 23

@@ -4,8 +4,8 @@
 
 }
 :root{
-    --fundo: rgb(216, 216, 216);
-    --fonte: #272626;
+    --fonte: rgb(39, 38, 38);
+    --fundo: #e0e0e0;
     --hover: rgb(83, 134, 211);
 
 
@@ -21,7 +21,7 @@ ul{
 }
 .header{
 
-    background-color: var(--fonte);
+    background-color: var(--fundo);
     width: 100%;
     position: sticky;
     top: 0;
@@ -30,11 +30,11 @@ ul{
 .logo{
     display: inline-block;
    color: var(--fundo);
-   font-size: 32px;
+   font-size: 12px;
   
 }
 #logo{
-  height: 10vh;
+  height: 5vh;
 
 }
 .nav{

@@ -105,7 +105,9 @@ ul{
     top: 0;
 }
 .conteudo-musica{
-     width: 100%;
+     display: grid;
+     grid-template-columns: 50% 50%;
+
 
 }
 .rodape{
@@ -166,18 +168,3 @@ background-color: rgb(79, 124, 221);
    }
     }
 
-   
-   
-   @media screen and (min-width: 1280px){
-       .menu{
-          height: 200px;
-          background-color: rgb(37, 37, 241);
-          font-size: 64px;
-       }
-       .img-ini{
-           width: 50%;
-       }
-       .desc-solo{
-           display: flex;
-       }
-      }

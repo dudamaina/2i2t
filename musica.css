@@ -107,6 +107,7 @@ ul{
 .conteudo-musica{
      display: grid;
      grid-template-columns: 50% 50%;
+     grid-template-areas: "def def";
 
 
 }
@@ -114,6 +115,22 @@ ul{
     width: 100%;
     background-color: rgb(104, 142, 211);
     text-align: center  ;
+}
+.definicao{
+    display: flex;
+    width: 100vw;
+    grid-area: def;
+}
+.img-definicao{
+    display: block;
+    text-align: end;
+    height: 50vw;
+    width: 30vw;
+}
+.descricao{
+    width: 100vw;
+    padding: 50vw;
+    width: 70vw;
 }
 .desc-estilo{
     width: 100;
@@ -141,7 +158,7 @@ background-color: rgb(79, 124, 221);
 .img-ini{
     width: 100%;
 }
-@media screen and (min-width: 768px){
+@media (min-width: 820px){
    .nav{
     max-height: none;
     top: 0;
@@ -150,14 +167,14 @@ background-color: rgb(79, 124, 221);
     width: fit-content;
     background-color: transparent;
    }
-   .menu{
+   .menu li{
     float: left;
    }
    .menu a:hover{
     background-color: transparent;
-    color: var(--hover);
+    color: var(--gray);
    }
-   .hamburger{
+   .hamb{
     display: none;
    }
    #logo{
@@ -166,5 +183,42 @@ background-color: rgb(79, 124, 221);
     
 
    }
-    }
+   .conteudo-musica{
+    display : grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "def def";
+   }
 
+   @media (min-width: 1024px){
+    .nav{
+     max-height: none;
+     top: 0;
+     position: relative;
+     float: right;
+     width: fit-content;
+     background-color: transparent;
+    }
+    .menu li{
+     float: left;
+    }
+    .menu a:hover{
+     background-color: transparent;
+     color: var(--gray);
+    }
+    .hamb{
+     display: none;
+    }
+    #logo{
+     width:25vh;
+     height: 25vh; 
+     
+ 
+    }
+    .conteudo-musica{
+     display : grid;
+     grid-template-columns: 33% 34% 33%;
+     grid-template-areas: "def def def";
+    }
+    
+     }
+    }

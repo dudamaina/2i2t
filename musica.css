@@ -142,9 +142,9 @@ ul{
 
 }
 div[class^="item-"]{
-    background-color: rgb(215, 236, 250);
+    background-color: rgb(77, 79, 196);
     margin-top: 2px;
-    height: 300px;
+
     grid-area: "item";
 
 }
@@ -190,7 +190,7 @@ div[class^="item-"]{
     .img-definicao{
         display: block;
         text-align: end;
-        height: 10vh;
+        height: 5px;
         width: 10vh;
     
     }
